@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myApp'>
+
+<head>
+    <title>LR_3</title>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width-device-width, initial-scale=10"> -->
+    <script type="text/javascript" src="bs/angular.min.js"></script>
+ <!--   <script type="text/javascript" src="bs/jquery-3.4.1.min.js"></script>-->
+<script type="text/javascript" src="bs/xlsx.full.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body  ng-controller='MyController'>
+<!-- <h1>Лабораторная работа №3</h1>
+<button id="open">Открыть файл</button>
+<div>Условие:</div>
+<ol>
+    <li>критерий работает на <b>max</b>;</li>
+    <li>метод идеальной точки;</li>
+    <li>мощность;</li>
+    <li>адитивный метод с весовым коэффициент.</li>
+</ol>
+<label class="text" id="text">label</label>
+<div id="check">f</div> -->
+
+<div>
+	<form enctype="multipart/form-data">
+		<input type="file" id="file">
+		<button type="submit" value="submit" ng-click="uploadExcel()"> Загрузить файл</button>
+	</form>
+</div>
+
+<div>
+	<table id="table">
+		<thead id="thead"></thead>
+		<tbody id="tbody"></tbody>
+	</table>
+</div>
+<div id='consentText'>
+	
+</div>
+<label id="consent"></label>
+<table id='newTable'></table>
+<table id='newTable3'></table>
+<table id ='newTable2'></table>
+<table id = 'power'></table>
+<table id = 'idealPoint'></table>
+<table id='aditiv'></table>
+<div id="ad">
+</div>
+
+<script type="text/javascript" src="javascript.js"></script>
+<script type="text/javascript" src="findSK.js"></script>
+<script type="text/javascript" src="createNewTable.js"></script>
+<script type="text/javascript" src="emptyTable.js"></script>
+<!--<script type="text/javascript" src="funct.js"></script> -->
+<script type="text/javascript" src="findMaxMin.js"></script>
+<script type="text/javascript" src="power.js"></script>
+<script type="text/javascript" src="aditivn.js"></script>
+</body>
+</html>

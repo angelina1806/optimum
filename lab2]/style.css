@@ -1,0 +1,42 @@
+table, th, td {
+	border: 1px solid green;
+}
+
+
+#newTable{
+	position: absolute;
+	margin-left: 300px;
+}
+
+ #newTable2{
+	position: absolute;
+	margin-left: 600px;
+}
+
+#newTable3{
+	position: absolute;
+	
+}
+
+#power{
+	position: absolute;
+	margin-left: 1050px;
+}
+
+#idealPoint{
+	position: absolute;
+	margin-left: 900px;
+}
+
+#ad {
+	margin-top: 200px;
+}
+
+#aditiv{
+	margin-left: 1150px;
+}
+
+.adInput{
+	display: block;
+	width: 29px;
+}
